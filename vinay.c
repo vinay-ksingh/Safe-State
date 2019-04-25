@@ -74,11 +74,11 @@ sflag=sflag+1;
 if(sflag==0)
 {
 n=q+1;
-kill=1;
+	kill=1;
 }
 }
 
-if(kill==1){printf("Unsafe or Deadlock occured here");}
+if(kill==1){printf("Unsafe or Deadlock occured");}
 
 else
 {
