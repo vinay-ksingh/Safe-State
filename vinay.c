@@ -21,9 +21,7 @@ scanf("%d",&q);
 printf("Enter the no of resources:");
 scanf("%d",&p);
 smax=p+q;
-
-for(i=0;i<q;i++)
-{
+for(i=0;i<q;i++){
 if(i==0)
 {
 max[i]=p-1;
@@ -80,7 +78,7 @@ kill=1;
 }
 }
 
-if(kill==1){printf("Unsafe or Deadlock occured");}
+if(kill==1){printf("Unsafe or Deadlock occured here");}
 
 else
 {
